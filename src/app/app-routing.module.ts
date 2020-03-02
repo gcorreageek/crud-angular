@@ -8,7 +8,7 @@ import { EditComponent } from './Persona/edit/edit.component';
 const routes: Routes = [
   {path:'listar',component:ListarComponent},
   {path:'add',component:AddComponent},
-  {path:'adit',component:EditComponent}
+  {path:'edit',component:EditComponent}
 ];
 
 @NgModule({
